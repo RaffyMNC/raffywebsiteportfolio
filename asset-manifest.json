@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/raffywebsiteportfolio/static/css/main.00a0af4a.css",
+    "main.js": "/raffywebsiteportfolio/static/js/main.3bfa22d3.js",
+    "static/js/787.e0746823.chunk.js": "/raffywebsiteportfolio/static/js/787.e0746823.chunk.js",
+    "static/media/helvetica-neu.ttf": "/raffywebsiteportfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff2": "/raffywebsiteportfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/logo-s.png": "/raffywebsiteportfolio/static/media/logo-s.bfc9f81846bda5218dab.png",
+    "static/media/RaffySubLogo.png": "/raffywebsiteportfolio/static/media/RaffySubLogo.52118d1764ed014bbe68.png",
+    "static/media/CoolveticaRg-Regular.woff2": "/raffywebsiteportfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "static/media/RaffyLogo.svg": "/raffywebsiteportfolio/static/media/RaffyLogo.9e1aae2f62798d09f7f7cdad46ca6ce3.svg",
+    "index.html": "/raffywebsiteportfolio/index.html",
+    "main.00a0af4a.css.map": "/raffywebsiteportfolio/static/css/main.00a0af4a.css.map",
+    "main.3bfa22d3.js.map": "/raffywebsiteportfolio/static/js/main.3bfa22d3.js.map",
+    "787.e0746823.chunk.js.map": "/raffywebsiteportfolio/static/js/787.e0746823.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00a0af4a.css",
+    "static/js/main.3bfa22d3.js"
+  ]
+}
