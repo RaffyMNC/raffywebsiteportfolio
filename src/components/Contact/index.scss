@@ -1,0 +1,154 @@
+@keyframes fadeInup {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+h1 {
+    margin-left: -50px;
+}
+
+p {
+    margin-left: -50px;
+}
+
+.contact-form {
+
+    margin-left: -50px;
+    width: 100%;
+    margin-top: 20px;
+
+    ul {
+        padding: 0;
+        margin: 0;
+    
+        li {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            margin-bottom: 10px;
+            overflow: hidden;
+            display: block;
+            position: relative;
+            opacity: 0;
+            animation: fadeInup 2s 2s;
+            animation-fill-mode: forwards;
+
+        }
+
+        li:not(.half) {
+            padding: 1px;
+            margin: 0;
+            list-style: none;
+            margin-bottom: 10px;
+            overflow: hidden;
+            display: block;
+            position: relative;
+            opacity: 0;
+            animation: fadeInup 2s 2s;
+            animation-fill-mode: forwards;
+        }
+
+        li.half {
+            width: 49%;
+            margin-left: 2%;
+            float: left;
+            clear: none;
+
+            &:first-child {
+                margin-left: 0;
+            }
+
+
+
+        }
+    }
+
+    input[type='text'],
+    input[type='email'] {
+        width: 100%;
+        border: 0;
+        background: #ff5c6cc5;
+        height: 50px;
+        font-size: 16px;
+        color: #ffffff;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    textarea {
+        width: 100%;
+        border: 0;
+        background: #ff5c6cc5;
+        height: 50px;
+        font-size: 16px;
+        color: #fff;
+        padding: 20px;
+        min-height: 150px;
+        box-sizing: border-box;
+    }
+
+    .flat-button {
+        color: #990012c5;
+        background: 0 0;
+        font: 11px;
+        letter-spacing: 3px;
+        text-decoration: none;
+        padding: 8px 10px;
+        border: 1px solid #990012c5;
+        float: right;
+        border-radius: 4px;
+    }
+}
+
+.info-map {
+    position: absolute;
+    background-color: #000;
+    top: 50px;
+    right: 35%;
+    z-index: 999999;
+    width: 267px;
+    padding: 20px;
+    color: #965858;
+    font-family: 'Helvetica';
+    font-size: 17px;
+    font-weight: 300;
+    opacity: 0;
+    animation: fadeIn 1s 1.5s;
+    animation-fill-mode: forwards;
+
+    span {
+        font-size: 16px;
+        display: block;
+        padding-top: 20px;
+        color: #ff6577c5;
+    }
+}
+
+.map-wrap {
+    background: rgba(8, 253, 216, 0.1);
+    float: right;
+    width: 53%;
+    height: 100%;
+    margin-right: 20px;
+
+}
+
+.leaflet-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    opacity: 0;
+    animation: backInRight 1s 1,2;
+    animation-fill-mode: forwards;
+}
+
+
+
+
