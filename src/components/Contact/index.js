@@ -1,14 +1,14 @@
 import AnimatedLetters from '../AnimatedLetters'
 import Loader from 'react-loaders'
 import { useEffect, useRef, useState } from 'react'
-import emailjs from '@emailjs/browser'; // Correct import statement for emailjs-com
+import emailjs from '@emailjs/browser'; 
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import './index.scss'
 
 const Contact = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
-    const refForm = useRef(); // Add parentheses () after useRef
+    const refForm = useRef(); 
 
     useEffect(() => {
         const timeoutId = setTimeout(() => {
@@ -22,10 +22,10 @@ const Contact = () => {
         e.preventDefault();
 
         emailjs.sendForm(
-            'service_g7i1k04',
-            'template_ixsrmxq',
+            'service_xdiuzr9',
+            'template_2k94nfx',
             refForm.current,
-            'ovklYQxGOgZDyjdKf',
+            'HPRQAe-CbGT5egryD',
 
         )
         .then(
